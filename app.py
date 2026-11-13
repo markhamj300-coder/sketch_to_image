@@ -31,7 +31,7 @@ def run(sketch, prompt, cn_scale, guidance, steps, seed):
     gen = torch.Generator("cpu").manual_seed(int(seed))
     out = pipe(prompt=(prompt or "a detailed, high quality image") + ", highly detailed",
                negative_prompt=NEG, image=ctrl, num_inference_steps=int(steps),
-               guidance_scale=guidance, controlnet_conditioning_scale=cn_scale,
+               guidance_scale=float(guidance), controlnet_conditioning_scale=float(cn_scale),
                generator=gen).images[0]
     return ctrl, out
 
