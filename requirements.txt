@@ -4,12 +4,12 @@ gradio==6.31.0
 gradio_client==2.7.2
 hf-gradio==0.4.1
 sentence-transformers==5.7.0
-torch==2.14.1+cu130
+torch==2.14.1
 torchao==0.10.0
-torchaudio==2.11.0+cu130
-torchcodec==0.17.0+cu130
+torchaudio==2.11.0
+torchcodec==0.17.0
 torchdata==0.11.0
 torchsummary==1.5.1
 torchtune==0.6.1
-torchvision==0.29.1+cu130
+torchvision==0.29.1
 transformers==5.22.1
