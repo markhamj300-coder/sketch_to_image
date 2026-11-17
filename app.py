@@ -44,8 +44,7 @@ demo = gr.Interface(
             gr.Slider(10, 50, value=30, step=1, label="Steps"),
             gr.Number(value=42, precision=0, label="Seed")],
     outputs=[gr.Image(label="Control image"), gr.Image(label="Generated image")],
-    title="Sketch → Image (SD1.5 + ControlNet Scribble)",
-    examples=[["sketches/your_sketch.png", "a futuristic glass tower at sunset", 1.0, 7.5, 30, 42]],  # edit or remove
+    title="Sketch → Image (SD1.5 + ControlNet Scribble)"
 )
 
 if __name__ == "__main__":
