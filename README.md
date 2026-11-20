@@ -6,4 +6,4 @@ The [sketch_to_image_pipeline.ipynb](sketch_to_image_pipeline.ipynb) shows the m
 
 [app.py](app.py) implements a user interface where sketches can be uploaded and images produced. To run the app open the [run_app.ipynb](run_app.ipynb) in colab, enable a gpu and run all.
 
-[![Watch the UI demo]]([https://youtu.be/UndZBXL82uQ?si=KXMppU1bAhM0r-y4])
+[Watch the UI demo](https://youtu.be/UndZBXL82uQ?si=KXMppU1bAhM0r-y4)
